@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5d7dc;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px;
+  direction: ltr;
+}
+
+header {
+  border-bottom: 2px solid #631f3f;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center; /* منو وسط چین */
+}
+
+header h1 {
+  color: #631f3f;
+  margin: 0;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* منو وسط چین */
+  gap: 15px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #7a304a;
+  font-weight: 700;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #4a1f33;
+}
+
+main {
+  background-color: #d8aeb5; /* تیره تر از زمینه اصلی */
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  color: #000;
+  text-align: left; /* متن‌های صفحه چپ‌چین */
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+  font-size: 0.9em;
+  color: #666666;
+  text-align: center;
+}
